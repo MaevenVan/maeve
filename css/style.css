@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+:root {
+  --light-blue: #DEE4EB;
+  --green-color: #579D45;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0;
+  font-family: "proxima-nova", sans-serif;
+  font-style: normal;
+}
+
+.text-h1 {
+  color: #27282B;
+  font-weight: 800;
+  font-size: 62px;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 936px;
+}
+
+.navig {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding-left: 160px;
+  padding-top: 37px;
+  min-height: 45px;
+}
+.navig-item {
+  margin-left: 50px;
+}
+.navig-link {
+  color: #868FA4;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+.navig-phone {
+  margin-left: 220px;
+}
+.navig-phone-logo {
+  width: 20px;
+  height: 20px;
+}
+.navig-phone-link {
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #27282B;
+}
+
+.main {
+  min-height: 338px;
+  background-color: #F2F7FC;
+  background-image: url(../img/Group\ 180.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main-parking {
+  padding-top: 70px;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 75px;
+  color: #191919;
+  width: 690px;
+  height: 22px;
+}
+.main .vector {
+  position: absolute;
+  padding-top: 338px;
+  height: 8px;
+  width: 1920px;
+}
+
+.humans {
+  position: absolute;
+  margin-left: 47%;
+  padding-top: 73px;
+}
+
+.days {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 38px;
+  margin-left: 20px;
+}
+.days-day {
+  font-weight: 600;
+  font-size: 21px;
+  color: #579D45;
+}
+.days-price {
+  font-weight: 800;
+  font-size: 21px;
+  color: #191919;
+}
+.days-rec {
+  margin-left: 25px;
+  margin-right: 33px;
+}/*# sourceMappingURL=style.css.map */
