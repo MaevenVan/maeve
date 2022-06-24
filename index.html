@@ -9,24 +9,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav>
-                <ul class="navig">
-                    <li class="navig-item"><a class="navig-link" href="">Услуги</a></li>
-                    <li class="navig-item"><a class="navig-link" href="">О парковке</a></li>
-                    <li class="navig-item"><a class="navig-link" href="">Где мы?</a></li>
-                    <li class="navig-item"><a class="navig-link" href="">Камеры</a></li>
-                    <div class="navig-phone">
-                        <img src="img/logoW.svg" alt="logo" class="phone-logo">
-                        <a class="navig-phone-link" href="">+7 (921) 000-00-00</a>
-                        <a class="navig-phone-link" href="">8 (800) 555-35-35</a>
-                    </div>
+    <header class="top_header">
+        <div class="wrapper">
+            <nav class="nav">
+                <ul>
+                    <li><a class="active" href="">Услуги</a></li>
+                    <li><a class="active" href="">О парковке</a></li>
+                    <li><a class="active" href="">Где мы?</a></li>
+                    <li><a class="active" href="">Камеры</a></li>
                 </ul>
-            </nav> 
+            </nav>
+            <nav  class="contacts">
+                <img src="img/logoW.svg" alt="logo" class="contacts-logo">
+                <a class="contacts-link" href="">+7 (921) 000-00-00</a>
+                <a class="contacts-link" href="">8 (800) 555-35-35</a>
+            </nav>
         </div>
-        <div class="main">
-            <img src="img/Vector-1.png" class="vector">
+       <!-- <div class="main">
             <img src="img/Group170.png" class="humans">
             <div class="container">
                 <h1 class="main-parking">Парковка в Пулково с трансфером в аэропорт</h1>   
@@ -42,11 +41,48 @@
                         <td><p class="days-day">7 - 14 дней</p><p class="days-price">200 рублей</p></td>
                     </tr>
                 </table>
-        </div>
-        <div class="container">
-            
-        </div>
-        
+        </div> -->
     </header>
+    <section class="page_heading">
+        <img src="img/airport.svg" alt="" class="airport">
+        <img src="img/Vector-1.png" alt="" class="vector">
+        <div class="wrapper">
+        <h1 class="parking">Парковка в Пулково с трансфером<br> в аэропорт</h1>
+        <img src="img/Group170.png" alt="" class="people">
+        </div>
+    </section>
+    <section class="page">
+        <div class="wrapper">
+            <div class="days">  
+                <table class="table">
+                    <tr>
+                        <td><p class="day">1 - 2 дня</p><p class="price">350 рублей</p></td>
+                        <td><img src="img/Rectangle37.png" class="rec"></td>
+                        <td><p class="day">3 - 7 дней</p><p class="price">250 рублей</p></td>
+                        <td><img src="img/Rectangle37.png" class="rec"></td>
+                        <td><p class="day">7 - 14 дней</p><p class="price">200 рублей</p></td>
+                    </tr>
+                </table> 
+            </div>
+            <div class="search">
+                <table class="choose_date">
+                    <tr>
+                        <td><p class="time">Дата и время въезда (вылет - 3 часа)</p>
+                        <input type="datetime-local" class="date">
+                        </td>
+                        <td><p class="time">Дата и время выезда (прилет + 1 час)</p>
+                        <input type="datetime-local" class="date">
+                        </td>
+                        <td><button class="button">найти место</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="wrapper">
+            <h1 class="header_services">Услуги</h1>
+        </div>
+    </section>
 </body>
 </html>
