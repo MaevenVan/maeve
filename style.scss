@@ -34,8 +34,12 @@ h1{
                 margin-left: 50px;
                 a{
                     color: inherit;
-                    text-decoration: none;    
+                    text-decoration: none;   
+                    
                 }
+                :hover{
+                    color: #579D45;
+                } 
             }
         }
         .contacts{
@@ -81,6 +85,7 @@ h1{
     .vector{
         position: absolute;
         padding-top: 336px;
+        width: 100%;
     }
 }
 
@@ -149,9 +154,191 @@ h1{
 }
 
 .services{
+    min-height: 785px;
     background-color: #F2F7FC;
+    ;
     .header_services{
         text-align: center;
         padding-top: 100px;
+    }
+    .about{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+        a{
+            text-decoration: none;
+            color: #868FA4;
+        }
+        &-service{
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 36px;
+            color: #868FA4;
+        }
+        .active{
+            color: #579D45;
+            text-decoration: underline;
+            text-underline-offset: 7px;
+        }
+    }
+    .family{
+        position: absolute;
+        padding-top: 65px;
+    }
+    ul{
+        margin-left: 840px;
+        padding-top: 55px;
+        li{
+            list-style-type: circle;
+            color:#579D45;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 32px;
+            padding-bottom: 20px;
+            span{
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: #868FA4;
+                
+            }
+        }    
+    }
+}
+.page_parking{
+    min-height: 1871px;
+    .about_parking{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .about_info{
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+        border-spacing: 40px;
+        .cell{
+            background: #F2F7FC;
+            border-radius: 6px;
+            width: 440px;
+            height: 266px;
+            .text1{
+                font-weight: 800;
+                font-size: 28px;
+                color: #579D45;
+                margin-left: 50px;
+            }
+            .text2{
+                font-weight: 600;
+                font-size: 20px;
+                color: #868FA4;
+                margin-left: 50px;
+            }
+            .image{
+                margin-left: 328px;
+                margin-right: 40px;
+            }
+        }
+        
+        .cell_reservation{
+            border-radius: 6px;
+            width: 440px;
+            height: 266px;
+            background: #579D45;
+            .reserv{
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 36px;
+                color: #FFFFFF;
+                margin-left: 50px;
+            }
+            .reserv_button{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+                color: #579D45;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                background-color: #FFFFFF;
+                padding: 22px 60px;
+                border-radius: 4px;
+                margin-left: 50px;
+            }
+        }
+    }
+    .photo{
+        height: 796px;
+        .first{
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            .translation{
+                display: flex;
+                width: 680px;
+                height: 532px;
+                background-color: #F2F7FC;
+                background-image: url(../img/translation.png);
+                background-repeat: no-repeat;
+                background-position: right bottom;
+                border-radius: 10px;
+                transition: 1s;
+                img:hover{
+                    transform: scale(1.2);
+                    padding-bottom: 300px;
+                }
+                .play{
+                    padding-top: 390px;
+                    margin-left: 42px;
+                    width: 84px;
+                    height: 84px;
+                }
+                .online_tran{
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 36px;
+                    padding-top: 385px;
+                    margin-left: 15px;
+                }
+            }
+            .table_photo1{
+                .images{
+                    margin-left: 40px;
+                    margin-bottom: 39px;
+                }
+                img:hover {
+                    opacity:0.5;
+                }
+            }
+        }
+        .table_photo2{
+            display: flex;
+            justify-content: space-between;
+            img:hover {
+                opacity:0.5;
+            }
+        }
+        .button_more{
+            padding-top: 50px;
+            margin-left: 600px;
+            img{
+                margin-left: 10px;
+            }
+            .more_photo{
+                display: flex;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+                color: #579D45;
+                align-items: center;
+                padding: 18px 30px 18px 40px;
+                border: 2px solid #579D45;
+                border-radius: 4px;
+                background-color: #FFFFFF;
+            }
+        }
+        
     }
 }

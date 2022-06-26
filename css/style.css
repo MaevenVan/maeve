@@ -40,6 +40,9 @@ h1 {
   color: inherit;
   text-decoration: none;
 }
+.top_header .wrapper .nav ul li :hover {
+  color: #579D45;
+}
 .top_header .wrapper .contacts {
   display: flex;
   color: #191919;
@@ -82,6 +85,7 @@ h1 {
 .page_heading .vector {
   position: absolute;
   padding-top: 336px;
+  width: 100%;
 }
 
 .page {
@@ -147,9 +151,186 @@ h1 {
 }
 
 .services {
+  min-height: 785px;
   background-color: #F2F7FC;
 }
 .services .header_services {
   text-align: center;
   padding-top: 100px;
+}
+.services .about {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.services .about a {
+  text-decoration: none;
+  color: #868FA4;
+}
+.services .about-service {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+  color: #868FA4;
+}
+.services .about .active {
+  color: #579D45;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.services .family {
+  position: absolute;
+  padding-top: 65px;
+}
+.services ul {
+  margin-left: 840px;
+  padding-top: 55px;
+}
+.services ul li {
+  list-style-type: circle;
+  color: #579D45;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+.services ul li span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #868FA4;
+}
+
+.page_parking {
+  min-height: 1871px;
+}
+.page_parking .about_parking {
+  text-align: center;
+  padding-top: 100px;
+}
+.page_parking .about_info {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  border-spacing: 40px;
+}
+.page_parking .about_info .cell {
+  background: #F2F7FC;
+  border-radius: 6px;
+  width: 440px;
+  height: 266px;
+}
+.page_parking .about_info .cell .text1 {
+  font-weight: 800;
+  font-size: 28px;
+  color: #579D45;
+  margin-left: 50px;
+}
+.page_parking .about_info .cell .text2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #868FA4;
+  margin-left: 50px;
+}
+.page_parking .about_info .cell .image {
+  margin-left: 328px;
+  margin-right: 40px;
+}
+.page_parking .about_info .cell_reservation {
+  border-radius: 6px;
+  width: 440px;
+  height: 266px;
+  background: #579D45;
+}
+.page_parking .about_info .cell_reservation .reserv {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-left: 50px;
+}
+.page_parking .about_info .cell_reservation .reserv_button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #579D45;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  padding: 22px 60px;
+  border-radius: 4px;
+  margin-left: 50px;
+}
+.page_parking .photo {
+  height: 796px;
+}
+.page_parking .photo .first {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.page_parking .photo .first .translation {
+  display: flex;
+  width: 680px;
+  height: 532px;
+  background-color: #F2F7FC;
+  background-image: url(../img/translation.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  border-radius: 10px;
+  transition: 1s;
+}
+.page_parking .photo .first .translation img:hover {
+  transform: scale(1.2);
+  padding-bottom: 300px;
+}
+.page_parking .photo .first .translation .play {
+  padding-top: 390px;
+  margin-left: 42px;
+  width: 84px;
+  height: 84px;
+}
+.page_parking .photo .first .translation .online_tran {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 385px;
+  margin-left: 15px;
+}
+.page_parking .photo .first .table_photo1 .images {
+  margin-left: 40px;
+  margin-bottom: 39px;
+}
+.page_parking .photo .first .table_photo1 img:hover {
+  opacity: 0.5;
+}
+.page_parking .photo .table_photo2 {
+  display: flex;
+  justify-content: space-between;
+}
+.page_parking .photo .table_photo2 img:hover {
+  opacity: 0.5;
+}
+.page_parking .photo .button_more {
+  padding-top: 50px;
+  margin-left: 600px;
+}
+.page_parking .photo .button_more img {
+  margin-left: 10px;
+}
+.page_parking .photo .button_more .more_photo {
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #579D45;
+  align-items: center;
+  padding: 18px 30px 18px 40px;
+  border: 2px solid #579D45;
+  border-radius: 4px;
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
