@@ -1,6 +1,6 @@
 .wrapper {
   max-width: 1402px;
-  width: 100%;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -333,4 +333,100 @@ h1 {
   border: 2px solid #579D45;
   border-radius: 4px;
   background-color: #FFFFFF;
+}
+
+.address {
+  margin-top: 100px;
+  min-height: 725px;
+}
+.address .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.address .text_address-address {
+  font-weight: 800;
+  font-size: 32px;
+  color: #282E34;
+}
+.address .text_address-street {
+  font-weight: 600;
+  font-size: 24px;
+  color: #868FA4;
+}
+.address .text_address .phones {
+  display: flex;
+  justify-content: flex-start;
+}
+.address .text_address .phone_num {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #868FA4;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-left: 17px;
+  margin-bottom: 13px;
+}
+.address .text_address a:hover {
+  color: #579D45;
+}
+.address .text_address .search_in {
+  width: 336px;
+  height: 60px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #579D45;
+  padding: 18px 30px 18px 40px;
+  border: 2px solid #579D45;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.bg {
+  min-height: 232px;
+  background-color: #579D45;
+  background-image: url(../img/footer-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.bg .footer-top {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 68px;
+}
+.bg .footer-top a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.bg .line {
+  background-color: #FFFFFF;
+  height: 2px;
+  margin-top: 64px;
+}
+.bg .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.bg .footer-bottom p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F2F7FC;
+}
+.bg .footer-bottom a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F2F7FC;
+  margin-top: 13px;
 }/*# sourceMappingURL=style.css.map */

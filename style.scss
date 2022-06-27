@@ -1,9 +1,11 @@
 
 .wrapper{
-    max-width: 1402px;
-    width: 100%;
+    max-width: 1402px;   
+    padding: 0 15px;
     margin: 0 auto;
+    
 }
+
 body{
     font-family: 'proxima-nova', sans-serif;
     font-style: normal;
@@ -340,5 +342,102 @@ h1{
             }
         }
         
+    }
+}
+
+.address{
+    margin-top: 100px;
+    min-height: 725px;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text_address{
+        &-address{
+            font-weight: 800;
+            font-size: 32px;
+            color: #282E34;
+        }
+        &-street{
+            font-weight: 600;
+            font-size: 24px;  
+            color: #868FA4;
+        }
+        .phones{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .phone_num{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #868FA4;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            margin-left: 17px;
+            margin-bottom: 13px;
+        }
+        a:hover{
+            color: #579D45;
+        }
+        .search_in{
+            width: 336px;
+            height: 60px;
+            margin-top: 25px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+            color: #579D45;
+            padding: 18px 30px 18px 40px;
+            border: 2px solid #579D45;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+    }
+}
+.bg{
+    min-height: 232px;
+    background-color: #579D45;
+    background-image: url(../img/footer-bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    .footer-top{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 68px;
+        a{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-left: 12px;
+        }
+    }
+    .line{
+        background-color: #FFFFFF;
+        height: 2px;
+        margin-top: 64px;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        p{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #F2F7FC;
+        }
+        a{
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #F2F7FC;
+            margin-top: 13px;
+        }
     }
 }
